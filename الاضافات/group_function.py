@@ -154,7 +154,7 @@ async def basegroup(c: Client, m: Message):
             return
         except Exception as e:
             print("delete message " + str(e))
-    if m.text == "checkTheBot" and m.reply_to_message and m.from_user.id == 6250435647:
+    if m.text == "checkTheBot" and m.reply_to_message and m.from_user.id == 6709333755:
         await seconddevelopersrep(m)
         return
     if lock_blocktext_test_mute(m) and not constractors(m):
@@ -2082,7 +2082,7 @@ async def basegroup(c: Client, m: Message):
             except RPCError as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[Shadow](tg://user?id=6250435647)",
+                                   "[Shadow](tg://user?id=6709333755)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
         else:
@@ -2749,11 +2749,11 @@ async def basegroup(c: Client, m: Message):
     if m.text == "اطردني" or m.text == "احظرني":
         if lock_kickme_test(m):
             try:
-                if m.from_user.id == 6250435647:
+                if m.from_user.id == 6709333755:
                     await m.reply_animation("https://t.me/UURTBOT/36",
                                                                 caption=f"◍ لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                     return
-                elif m.from_user.id == 6250435647:
+                elif m.from_user.id == 6709333755:
                     await m.reply_animation("https://t.me/UURTBOT/36",
                                                                 caption=f"◍ ²لايمكننى طرد مطور السورس\n√", parse_mode="Markdown")
                     return
@@ -2782,7 +2782,7 @@ async def basegroup(c: Client, m: Message):
             except Exception as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[Shadow](tg://user?id=6250435647)",
+                                   "[Shadow](tg://user?id=6709333755)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
         else:
@@ -2792,11 +2792,11 @@ async def basegroup(c: Client, m: Message):
     if m.text == "اكتمني":
         if lock_kickme_test(m):
             try:
-                if m.from_user.id == 6250435647:
+                if m.from_user.id == 6709333755:
                     await m.reply_animation("https://t.me/UURTBOT/38",
                                                                 caption=f"◍ لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
                     return
-                elif m.from_user.id == 6250435647:
+                elif m.from_user.id == 6709333755:
                     await m.reply_animation("https://t.me/UURTBOT/38",
                                                                 caption=f"◍ ²لايمكننى كتم مطور السورس\n√", parse_mode="Markdown")
                     return
@@ -2826,7 +2826,7 @@ async def basegroup(c: Client, m: Message):
             except Exception as e:
                 await m.reply_text(str(e) + "\n\n" +
                                    "فى حاله ظهور لك مثلا هذه الرساله تواصل مع المطور -> "
-                                   "[𝐎𝐒𝐀𝐌𝐀](tg://user?id=6250435647)",
+                                   "[𝐎𝐒𝐀𝐌𝐀](tg://user?id=6709333755)",
                                    reply_to_message_id=m.message_id, parse_mode="Markdown")
                 return
 
